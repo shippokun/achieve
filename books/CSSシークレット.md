@@ -24,3 +24,24 @@ background-clip: padding-box;
   - 発生させたい場合は、inset を指定して、要素の内側に描画されるようにする。追加のpaddingは必要。
 - outline で再現する
 
+## 柔軟な背景の位置指定
+
+- background-position
+- background-origin: content-box;
+- calc()
+
+## ストライプ模様の背景
+
+- background: linear-gradient();
+  - カラーストップの位置をまったく同じ位置にするとストライプを表現できる（それぞれ異なる値だとグラデーションを表現）
+  - `background-size: 100% Xpx;` で繰り返し表示できる
+- 縦のストライプ、斜めのストライプ
+
+# 4章：視覚効果
+
+## 単方向の影
+
+# 5章：タイポグラフィー
+
+- `hyphens: auto;`
+  - ハイフネーション
